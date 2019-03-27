@@ -1,15 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<title>COOKING</title>
-	<h1>COOK</h1>
-	<script>
-		let word = 'tryna Cook?';
-		//alert(word);
-	</script>
-</head>
-<body>
-	<script>
-		document.write('<h1>Welcome to this website</h1>');
-	</script>
-</body>
+	<head>
+		<title>COOKING</title>
+		<link rel="stylesheet" type= "text/css" href="C:/Users/zmi94/Desktop/CookingProject/CSSfiles/style.css">
+		<h1>COOK</h1>
+		<script>
+			let word = 'tryna Cook?';
+			//alert(word);
+		</script>
+	</head>
+	<body>
+		<script>
+			document.write('<h1>Welcome to this website</h1>');
+			function changePara() {
+				document.getElementById("demo").innerHTML = "Paragraph changed.";
+			}
+		</script>
+		<p id="demo">A Paragraph</p>
+		<button type="button" onclick="changePara()">Try it</button>
+	</body>
+</html>
