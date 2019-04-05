@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<title>COOKING</title>
 		<link rel="stylesheet" type= "text/css" href="C:/Users/zmi94/Desktop/CookingProject/CSSfiles/style.css">
 		<h1>COOK</h1>
-		<script>
-			let word = 'tryna Cook?';
-			//alert(word);
-		</script>
 	</head>
+	
 	<body>
-		<script>
-			document.write('<h1>Welcome to this website</h1>');
-			function changePara() {
-				document.getElementById("demo").innerHTML = "Paragraph changed.";
-			}
-		</script>
-		<p id="demo">A Paragraph</p>
-		<button type="button" onclick="changePara()">Try it</button>
+		
+		<div id="ingredientInput" class="header">
+			<h2>Enter the ingredients you currently have:</h2>
+			<input type="text" id="ingredient" placeholder="Enter ingredients...">
+			<span onclick="addIngredient()" class="addButton">Add Ingredient</span>
+		</div>
+		
+		<ul id="ingredientUL">
+		</ul>
+		
+		<script src = "C:/Users/zmi94/Desktop/CookingProject/JavaScriptfiles/Functions.js"></script>
+		
 	</body>
 </html>
